@@ -52,7 +52,7 @@
                     <artifactId>maven-war-plugin</artifactId>
                     <configuration>
                         <failOnMissingWebXml>false</failOnMissingWebXml>
-                        <warName>JavaHelloWorldApp.<version></warName>
+                        <warName>JavaHelloWorldApp</warName>
                     </configuration>
                 </plugin>
                 <plugin>
