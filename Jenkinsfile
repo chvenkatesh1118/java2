@@ -1,12 +1,12 @@
 pipeline{
     agent any
     stages{
-        stage(copy artifact){
+        stage('copy artifact'){
             steps{
                 sh 'mv  /var/lib/jenkins/workspace/mavenbuild/target/*.war . '
             }
         }
-        stage(build image){
+        stage('build image'){
             steps{
                 sh 'docker build -t app . '
             }
