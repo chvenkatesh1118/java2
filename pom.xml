@@ -6,12 +6,12 @@
         <groupId>net.wasdev.maven.parent</groupId>
         <artifactId>java7-parent</artifactId>
         <version>1.4</version>
-        <relativePath>2.0</relativePath>
+        <relativePath></relativePath>
     </parent>
 
     <groupId>net.wasdev.wlp.sample</groupId>
-    <artifactId>JavaHelloWorldApp.2</artifactId>
-    <version>2.0-SNAPSHOT</version>
+    <artifactId>JavaHelloWorldApp.1</artifactId>
+    <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
     <name>Liberty Profile Sample - Servlet</name>
@@ -31,7 +31,7 @@
             <dependency>
                 <groupId>org.apache.geronimo.specs</groupId>
                 <artifactId>geronimo-servlet_3.0_spec</artifactId>
-                <version>2.0</version>
+                <version>1.0</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
